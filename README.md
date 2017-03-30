@@ -21,12 +21,11 @@ Or install it yourself as:
     $ gem install dallal_view_tool
 
 ## Usage
+```ruby
+ before_action :set_copyright
 
-EX:   before_action :set_copyright
-
-		  def set_copyright
-		  	@copyright = DallalViewTool::Renderer.copyright('Sammy Dallal', 'All Rights Reserved')
-		  end
+@copyright = DallalViewTool::Renderer.copyright('Sammy Dallal', 'All Rights Reserved')
+```		  
 
 ## Development
 
